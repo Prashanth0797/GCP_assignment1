@@ -1,0 +1,7 @@
+Step 1: Under stackdriver click on logging.
+Step 2: Click on exports.
+Step 3: Choose GCE Firewall rules
+Step 4: Click create export button.
+Step 5: Provide the Sink Name.
+Step 6: Provide the sink service as BigQuery.
+Step 7: Provide sink destination as the big query dataset name.

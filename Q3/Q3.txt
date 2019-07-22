@@ -1,0 +1,5 @@
+1. To list the services installed
+gcloud services list --available
+
+2. To list the enabled services
+gcloud services list

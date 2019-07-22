@@ -1,0 +1,3 @@
+Steps 1: Created a service account named readstorage1 from the console. Provided the name readstorage1. Added the 
+role under storage storage view.
+Step 2: Create an instance with this service role.

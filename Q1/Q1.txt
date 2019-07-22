@@ -1,0 +1,21 @@
+1. To list the comonents installed 
+gcloud components list
+
+2. Installing gsutil
+gcloud components install gsutil
+
+3. Installing kubectl
+gcloud components install kubectl
+
+4. Installing bq
+gcloud components install bq
+
+5. Installing alpha
+gcloud components install alpha
+
+6. Installing beta
+gcloud components install beta
+
+
+
+

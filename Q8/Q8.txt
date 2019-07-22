@@ -1,0 +1,4 @@
+1. gcloud compute instances create prashanthinstance4 --tags http-server --metadata-from-file startup-script=Install_apche.sh
+2. gcloud compute instances describe prashanthinstance4
+3. gcloud compute instance-templates create prashanthautoscaletemplate1 --source-instance=prashanthinstance4 --source-instance-zone=us-east1-b
+4. gcloud compute instance-groups managed create prashanthautoscalegp1 --zone=us-east1-c --template=prashanthautoscaletemplate1 --size=3

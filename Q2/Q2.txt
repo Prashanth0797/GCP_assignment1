@@ -1,0 +1,11 @@
+1.  
+gcloud config configurations list
+
+2. Creating a new configuration
+gcloud config configurations create configuration1-region-us-east-1c
+gcloud config configurations create actual-config
+
+
+2.
+gcloud config configurations activate default
+

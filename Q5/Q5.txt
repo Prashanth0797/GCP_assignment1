@@ -1,0 +1,14 @@
+1. Copy
+gsutil cp gs://prashanth8/traditional.jpg Desktop/abc.png
+
+2. Move
+gsutil mv gs://prashanth8/traditional.jpg gs://prashanth8/newfolder/traditional.jpg
+
+3. Download
+gsutil cp gs://prashanth8/newfolder/traditional.jpg Desktop/abc.png
+
+4. Upload
+gsutil cp Desktop/abc.png gs://prashanth8/newfolder/traditional2.jpg
+
+5. Delete 
+gsutil rm gs://prashanth8/newfolder/traditional.jpg
